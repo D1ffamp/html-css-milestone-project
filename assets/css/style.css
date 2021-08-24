@@ -28,6 +28,7 @@ h2{
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
+   
 }
 
 #logo, #menu{
@@ -35,8 +36,9 @@ h2{
 }
 
 #menu li {
-    float: right;
-    margin-right: 30px;
+    display: inline-block;
+   /*float: right;*/
+   /* margin-right: 30px;*/
 }
 
 #menu a {
@@ -168,13 +170,13 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/hunter.png) no-repeat center center;
+    background: url('../images/hunter.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #times{
-    background-image: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png');
+    background-image: url('../images/footer\ image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -188,7 +190,7 @@ hr {
     width: 19%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 30px 0 0 13px;
     text-align: center;
     margin: 2px;
 }
@@ -215,4 +217,97 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #777777;
+}
+
+@media screen and (max-width: 1393px) {
+
+    #club-ethos{
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+    }
+  
+    #welcome{
+      padding:30px 0;
+      margin-top:0;
+    }
+    
+    #left-about, #right-about{
+      width: 100%;
+      float: left;
+      padding: 0;
+  
+    }
+  
+    #center-about{
+      clear: both;
+      width: 100%;
+      float: left;
+      padding: 0;
+  
+    }
+  
+    #times div{
+      width:100%;
+      clear: both;;
+      height:150%;
+      border-style:solid;
+      border-bottom-width: 1px;
+      border-bottom-color:#fff;
+      padding:0;
+    }
+  
+    hr{
+      display: none;
+    }
+  
+  
+  
+  @media screen and (max-width: 943px){
+  
+    #menu{
+      clear:left;
+      float: left;
+      margin-left:30px;
+      margin-bottom:20px;
+      line-height:25px;
+    }
+  
+  
+  #cover-text{
+    left: 0px;
+  }
+  
+  #club-ethos{
+    width:90%;
+    height:1200px;
+    margin: 0 auto;
+  }
+  
+  .left-about-heading, .right-about-heading{
+    width:inherit;
+  }
+  
+  .left-about-heading h2, .right-about-heading h2{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .left-about-heading p, .right-about-heading p{
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+  
+  #photos{
+    column-count: 3;
+  }
+
+  
+  
+  @media screen and (max-width: 800px) {
+    #photos{
+      column-count: 2;
+    }
+  }
+  }
 }

@@ -104,7 +104,11 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 Happy coding!
 
 hero image citation: https://wall.alphacoders.com/profile.php?id=68995
+footer image citation: https://wall.alphacoders.com/big.php?i=917700
 
 center image :taken by me in game
 
 errors and bugs: at res samller than a tablet hero iamges gets cropped and nav beomes disordered. 
+                circle image appears off center
+
+                nav bar shows in reverse order: fix found https://stackoverflow.com/questions/37660902/why-is-my-navigation-list-reversed?noredirect=1&lq=1
