@@ -193,7 +193,7 @@ hr {
 /************************bottom****************************/
 
 #times{
-    background-image: url('../images/footer\ image.jpg');
+    background-image: url('../images/footer\ image.jpg' );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,7 +240,6 @@ footer{
 
 .form-section {
     clear: left;
-    /*background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");*/
     background-size: cover;
     background-position: center;
     height: 900px;
