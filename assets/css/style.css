@@ -12,6 +12,7 @@ body{
     color: #777777;
 }
 
+/*************************Header***********************************************/
 h2{
     font-family: Oswald;
     text-transform: uppercase;
@@ -34,12 +35,25 @@ h2{
 #logo, #menu{
     line-height: 75px;
 }
-
-#menu li {
-    display: inline-block;
-   /*float: right;*/
-   /* margin-right: 30px;*/
+/* nav  code to float to the right*/
+.navigation{
+    float: right;
 }
+
+.navigation ul {
+    text-align: right;
+  }
+.navigation li a {
+    
+     float: right;
+    margin-right: 10px;
+  }
+
+  .navigation li {
+    display: inline-block;
+  }
+  
+
 
 #menu a {
     text-decoration: none;
@@ -309,5 +323,12 @@ footer{
       column-count: 2;
     }
   }
+  }
+
+  @media screen and (max-width: 414px ) {
+      #logo{
+          font-size: 30px;
+      }
+      
   }
 }

@@ -12,19 +12,24 @@
   <!---- initial layout copied from Love Running mini project  https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/06_site_footer/02_footer_styling/index.html--> 
 <body>
 
-    <header> <!-- changed nav -->
+    <header> 
         <a href="index.html">
-            <h2 ID="logo">This is the one lads</h2>
+            <h2 id="logo">This is the one lads</h2>
         </a>
-        <nav>
-            <ul id="menu">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="gallery.html"> Gallery</a></li>
-                <li><a href="#"> Sign Up</a></li>
-          </ul>
-        
-        </nav>
+        <!-- changed nav -->
+        <div class="container">
+            <nav class="navigation">
+                <ul id="menu">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="gallery.html"> Gallery</a></li>
+                    <li><a href="#"> Sign Up</a></li>
+                </ul>
+            
+            </nav>
+        </div>  
     </header>
+
+
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="cover-text">
@@ -60,7 +65,7 @@
                 </p>
             </div>
             <div class="right-about-heading">
-                <h2>Have fun <i class="fas fa-dumbbell"></i></h2>
+                <h2>Have fun </h2>
                 <hr>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae purus quis tellus bibendum tincidunt.
