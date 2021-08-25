@@ -118,6 +118,7 @@ h2{
     position: absolute;
 
 }
+/******************************centre section*/
 
 #club-ethos{
     height: 600px;
@@ -189,6 +190,8 @@ hr {
     border-radius: 50%;
 }
 
+/************************bottom****************************/
+
 #times{
     background-image: url('../images/footer\ image.jpg');
     background-repeat: no-repeat;
@@ -212,7 +215,7 @@ hr {
 #times h2 {
     color: #fafafa;
 }
-
+ /*******************************************social links*/
 footer{
     height: 150px;
 }
@@ -232,6 +235,63 @@ footer{
     padding: 5%;
     color: #777777;
 }
+
+/* Form */
+
+.form-section {
+    clear: left;
+    /*background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");*/
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    background-color: black;
+}
+
+.signup-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(12, 0, 124, 0.349);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+/***********************media resolutions***/
 
 @media screen and (max-width: 1393px) {
 
@@ -271,10 +331,10 @@ footer{
       padding:0;
     }
   
-    hr{
+    /*hr{
       display: none;
     }
-  
+  */
   
   
   @media screen and (max-width: 943px){

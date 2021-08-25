@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>This is the one lads</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+  <!---- initial layout copied from Love Running mini project  https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/06_site_footer/02_footer_styling/index.html--> 
+<body>
+
+    <header> 
+        <a href="index.html">
+            <h2 id="logo">This is the one lads</h2>
+        </a>
+        <!-- changed nav -->
+        <div class="container">
+            <nav class="navigation">
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html"> Gallery</a></li>
+                    <li><a class="active" href="form.html"> Sign Up</a></li>
+                </ul>
+            
+            </nav>
+        </div>  
+    </header>
+
+
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="cover-text">
+            <h2>This is the one lads</h2>
+            <h3>Clan page for Destiny 2 clan to arrange gaming sessions</h3>
+        </div>
+    </section>
+    <section  class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <div>
+                    <h2>Let's get you signed up!</h2>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name" required/ class="text-input" >
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name" required/ class="text-input">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email_address" required/ class="text-input">
+                    <label for="road">Road</label>
+                    <input id="road" type="radio" name="running_preference" value="road" required/>
+                    <label for="trail">Trail</label>
+                    <input id="trail" type="radio" name="running_preference" value="trail"/>
+                    <label for="both">Both</label>
+                    <input id="both" type="radio" name="running_preference" value="both"/>
+                    <input type="submit" value="Let's Run!"/ class="join-button">
+                </div> 
+        </form>
+    </section>
+     
+    
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
