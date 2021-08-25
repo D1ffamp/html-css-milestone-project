@@ -291,6 +291,19 @@ footer{
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+ /*********gallery*/
+
+ #photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
 /***********************media resolutions***/
 
 @media screen and (max-width: 1393px) {
@@ -331,11 +344,11 @@ footer{
       padding:0;
     }
   
-    /*hr{
+    hr{
       display: none;
     }
-  */
-  
+}
+ 
   
   @media screen and (max-width: 943px){
   
@@ -383,7 +396,7 @@ footer{
       column-count: 2;
     }
   }
-  }
+  
 
   @media screen and (max-width: 414px ) {
       #logo{
@@ -391,4 +404,4 @@ footer{
       }
       
   }
-}
+} 
